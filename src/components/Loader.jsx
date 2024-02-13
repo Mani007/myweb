@@ -2,6 +2,7 @@ import { Html, useProgress } from "@react-three/drei";
 
 const CanvasLoader = () => {
   const { progress } = useProgress();
+  // here we have loaded some plane html and css in react
   return (
     <Html
       as='div'
