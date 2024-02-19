@@ -41,22 +41,40 @@ import {
     },
   ];
   
-  const services = [
+  const services1 = [
     {
-      title: "Web Developer",
+      title: "Frontend Development",
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
+      title: "Backend Development",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Fullstack Development",
       icon: creator,
+    },
+    {
+      title: "Mobile Development",
+      icon: mobile,
+    },
+  ];
+  const services = [
+    {
+      title: "System Design",
+      icon: web,
+    },
+    {
+      title: "Clean Coding",
+      icon: backend,
+    },
+    {
+      title: "Devops",
+      icon: creator,
+    },
+    {
+      title: "Machine Learning",
+      icon: mobile,
     },
   ];
   
@@ -263,4 +281,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, services1, technologies, experiences, testimonials, projects };
