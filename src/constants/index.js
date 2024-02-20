@@ -24,6 +24,14 @@ import {
     jobit,
     tripguide,
     threejs,
+    mobile1,
+    system1,
+    backend1,
+    devops,
+    deeplearning,
+    fullstack,
+    cleancode,
+    frontend,
   } from "../assets";
   
   export const navLinks = [
@@ -44,37 +52,37 @@ import {
   const services1 = [
     {
       title: "Frontend Development",
-      icon: web,
+      icon: frontend,
     },
     {
       title: "Backend Development",
-      icon: backend,
+      icon: backend1,
     },
     {
       title: "Fullstack Development",
-      icon: creator,
+      icon: fullstack,
     },
     {
       title: "Mobile Development",
-      icon: mobile,
+      icon: mobile1,
     },
   ];
   const services = [
     {
       title: "System Design",
-      icon: web,
+      icon: system1,
     },
     {
       title: "Clean Coding",
-      icon: backend,
+      icon: cleancode,
     },
     {
       title: "Devops",
-      icon: creator,
+      icon: devops,
     },
     {
       title: "Machine Learning",
-      icon: mobile,
+      icon: deeplearning,
     },
   ];
   

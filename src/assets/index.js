@@ -30,7 +30,23 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import mylogo from "./mylogo-v11.png";
+import mobile1 from "./mobile1.png";
+import system1 from "./system1.png";
+import backend1 from "./backend1.png";
+import devops from "./devops.png";
+import deeplearning from "./deeplearning.png";
+import fullstack from "./fullstack.png";
+import cleancode from "./cleancode.png";
+import frontend from "./frontend.png";
 export {
+  mobile1,
+  system1,
+  backend1,
+  devops,
+  deeplearning,
+  fullstack,
+  cleancode,
+  frontend,
   logo,
   backend,
   creator,
