@@ -32,6 +32,10 @@ import {
     fullstack,
     cleancode,
     frontend,
+    capwings,
+    exacraft,
+    pythonbrains,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -143,57 +147,62 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Partner",
+      company_name: "Python Brains LLP",
+      icon: pythonbrains,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "2018 - 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "As a partner in software services industry for development of software as per client requirement. ",
+        "I worked in various software projects with varied roles and responsibilities in the company. ",
+        "Roles such as full-stack developer, DevOps, technology architect etc are just a few of my responsibilities and successful projects.",
+        "Some really successful project under my contribution are on-premise OCR system combined with robotic process automation. ",
+        "Some other projects are Chat-bot platform, on-premise cloud email server, cloud storage system, cloud video conferencing system",
+        //"Developing and maintaining web applications using React.js and other related technologies.",
+        //"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        //"Implementing responsive design and ensuring cross-browser compatibility.",
+        //"Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "CTO",
+      company_name: "Capwings Solutions Pvt. Ltd.",
+      icon: capwings,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "2018 - 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Acting as CTO for development of AI enabled fintech software for financial fraud control system.",
+        "Designing the platform with highly pluggable and scalable architecture for implementation of more than 1500+ financial fraud triggers patterns from various documents.",
+        "An hybrid system with OCR+NLP+Language translation Engine for over 19 languages, including visual RPA platform for financial frauds.",
+        "Leading the team of Developers for implementation and maintenance of web and cloud applications.",
       ],
     },
+    {
+      title: "Director",
+      company_name: "Exacraft AI Pvt. Ltd.",
+      icon: exacraft,
+      iconBg: "#E6DEDD",
+      date: "2019 - Present",
+      points: [
+        "As a managing director of the company, I have responsibility for in-depth evaluation and make strategic investments in cutting edge technology.",
+        "The detailed project report of evaluation need to presented in front of our executive board before making the final decision.",
+        "The company currently holds its own ML-Ops (CI/CD pipeline for machine learning/deep leaning), knowledge management framework for DRY coding, Digital Twin Platform with AI capabilities etc.",
+        "Established Deep Learning Research and Development, an organization to cater our talent/human resource need in latest technology.",
+      ],
+    },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [

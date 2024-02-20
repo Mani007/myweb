@@ -38,7 +38,13 @@ import deeplearning from "./deeplearning.png";
 import fullstack from "./fullstack.png";
 import cleancode from "./cleancode.png";
 import frontend from "./frontend.png";
+import capwings from "./capwingslogo.png";
+import exacraft from "./Exacraft.png";
+import pythonbrains from "./pythonbrains.png";
 export {
+  capwings,
+  exacraft,
+  pythonbrains,
   mobile1,
   system1,
   backend1,
