@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
+import Cal, { getCalApi } from "@calcom/embed-react";
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -14,6 +14,13 @@ const Contact = () => {
     email: "",
     message: "",
   });
+
+  useEffect(()=>{
+	  (async function () {
+		const cal = await getCalApi();
+		cal("ui", {"theme":"dark","styles":{"branding":{"brandColor":"#1158e0"}},"hideEventTypeDetails":false,"layout":"month_view"});
+	  })();
+	}, [])
 
   const [loading, setLoading] = useState(false);
 
@@ -68,7 +75,7 @@ const Contact = () => {
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col items-center justify-center gap-10 overflow-hidden`}
     >
-      <motion.div
+      {/* <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
@@ -121,14 +128,18 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-      </motion.div>
+      </motion.div> */}
 
-      {/* <motion.div
+       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
-         <EarthCanvas />
-      </motion.div> */}
+        <div className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
+        <p className={styles.sectionSubText}>Let&apos;s get in touch</p>
+        <h3 className={styles.sectionHeadText}>Book a call here &#8659;</h3>
+        </div>
+         <Cal calLink="mohnish007/30min" style={{width:"100%",height:"100%",overflow:"scroll"}} config={{layout: 'month_view'}} />;
+      </motion.div> 
     </div>
   );
 };
