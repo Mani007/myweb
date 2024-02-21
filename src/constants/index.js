@@ -244,9 +244,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "OCR Automation",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Complete OCR application with 99% accuracy that can be deployed on-premise. This application will support all types of structured, unstructured or handwritten documents. ",
       tags: [
         {
           name: "react",
@@ -257,7 +257,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "python",
           color: "pink-text-gradient",
         },
       ],
@@ -265,9 +265,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Twinway Platform",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A complete digital twin platform for different IOT applications. This platform will support all types of 3D models and can operate at ultra low latencies.",
       tags: [
         {
           name: "react",
@@ -278,7 +278,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "threejs",
           color: "pink-text-gradient",
         },
       ],
@@ -286,20 +286,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Chatbot Platform",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A complete chatbot builder platform with actionable RPA triggers. One of the application of this platform is on HR process automation.",
       tags: [
         {
-          name: "nextjs",
+          name: "angular",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "nodejs",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "python",
           color: "pink-text-gradient",
         },
       ],
