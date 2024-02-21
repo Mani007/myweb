@@ -42,7 +42,13 @@ import frontend from "./frontend.png";
 import capwings from "./capwingslogo.png";
 import exacraft from "./Exacraft.png";
 import pythonbrains from "./pythonbrains.png";
+import dtwin from "./dtwin.png";
+import chatbot from "./chatbot.png";
+import ocr from "./ocr.png";
 export {
+  dtwin,
+  chatbot,
+  ocr,
   capwings,
   exacraft,
   pythonbrains,

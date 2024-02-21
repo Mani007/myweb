@@ -37,6 +37,9 @@ import {
     pythonbrains,
     reactnative,
     python,
+    dtwin,
+    chatbot,
+    ocr,
     
   } from "../assets";
   
@@ -258,7 +261,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: ocr,
       source_code_link: "https://github.com/",
     },
     {
@@ -279,7 +282,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: dtwin,
       source_code_link: "https://github.com/",
     },
     {
@@ -300,7 +303,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: chatbot,
       source_code_link: "https://github.com/",
     },
   ];
