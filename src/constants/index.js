@@ -35,6 +35,8 @@ import {
     capwings,
     exacraft,
     pythonbrains,
+    reactnative,
+    python,
     
   } from "../assets";
   
@@ -120,6 +122,10 @@ import {
       icon: tailwind,
     },
     {
+      name: "python",
+      icon: python,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
     },
@@ -128,9 +134,10 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "reactnative",
+      icon: reactnative,
     },
+   
     {
       name: "git",
       icon: git,
