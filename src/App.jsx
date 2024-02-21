@@ -14,7 +14,7 @@ import {Hero,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas} from './components'
+  StarsCanvas, Footer} from './components'
 function App() {
   
 
@@ -36,6 +36,7 @@ function App() {
           <StarsCanvas/>
         </div>
       </div>
+      <Footer/>
     </BrowserRouter>
     </>
   )
