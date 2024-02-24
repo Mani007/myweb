@@ -52,7 +52,7 @@ const ServiceCard = ({ index, title, icon }) => (
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let&apos;s work together to bring your ideas to life!
       </motion.p>
-<div className="sm:flex-col">
+
       <div className='mt-20 flex flex-wrap gap-10 sm:flex-col'>
         {services1.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
@@ -63,7 +63,7 @@ const ServiceCard = ({ index, title, icon }) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
-      </div>
+      
    </>
   )
 }
