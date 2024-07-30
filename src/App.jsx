@@ -15,6 +15,7 @@ import {Hero,
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas, Footer} from './components'
+import Purpose from './components/Purpose'
 function App() {
   
 
@@ -30,6 +31,7 @@ function App() {
         <Experience/>
         <Tech/>
         <Works/>
+        <Purpose/>
         {/* <Feedbacks/> */}
         <div className='relative z-0'>
           <Contact/>
