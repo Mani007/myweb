@@ -1,4 +1,7 @@
-
+// TODO Add projects with videos and other related information 
+// TODO Add opensource and community contributions to the website
+// TODO Add automated test cases for unit testing and end to end testing for all the project. 
+// TODO Add social media and otherr stack overflow links to the website 
 import {
     mobile,
     backend,
